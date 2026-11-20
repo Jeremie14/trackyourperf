@@ -1,3 +1,7 @@
+/*
+* \brief Welcome page of the user
+* */
+
 import { useNavigate } from 'react-router-dom'
 import './WelcomePage.css'
 
@@ -15,6 +19,9 @@ function WelcomePage() {
                     <h1 className="navbar-title">
                         Track your performance
                     </h1>
+
+                    <button className={"aboutButton"}>About</button>
+                    <button className={"dashboardButton"}>Dashboard</button>
 
                     <button
                         className="profile-button"
@@ -39,7 +46,6 @@ function WelcomePage() {
                 </div>
 
                 <div className="navbar-bottom">
-                    {/* Future dropdown menus */}
                 </div>
             </header>
 

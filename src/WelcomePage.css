@@ -77,3 +77,7 @@
     padding: 24px 20px;
   }
 }
+
+.aboutButton, .dashboardButton{
+  justify-content: space-evenly;
+}

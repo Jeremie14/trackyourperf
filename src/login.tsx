@@ -1,3 +1,7 @@
+/*
+* \brief Login page for the user
+* */
+
 import { useState, type FormEvent } from 'react'
 import './Login.css'
 
