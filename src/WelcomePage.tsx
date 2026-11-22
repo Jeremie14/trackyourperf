@@ -21,7 +21,6 @@ function WelcomePage() {
                     </h1>
 
                     <button className={"aboutButton"}>About</button>
-                    <button className={"dashboardButton"}>Dashboard</button>
 
                     <button
                         className="profile-button"

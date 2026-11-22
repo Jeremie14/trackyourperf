@@ -78,6 +78,8 @@
   }
 }
 
-.aboutButton, .dashboardButton{
+.aboutButton{
   justify-content: space-evenly;
+  color: white;
+  background-color: unset;
 }
